@@ -24,8 +24,8 @@ Currently the conversions support : <br>
 [Download Application]()
 
 <hr>
-Author: [Abrar Shariar](https://www.facebook.com/abrar1661) <br>
-Email:   shariarabrar@gmail.com  
+Project maintained by [Abrar Shariar](https://www.facebook.com/abrar1661) <br>
+
 
 
 
