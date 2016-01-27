@@ -22,7 +22,7 @@ Currently the conversions support : <br>
 - Open the file *NumConverter.pro* in Qt Creator and play around with the code !!
 
 #Platform :
- *Windows*
+ Supported OS: *Windows*
 
 [Download Application]()
 
