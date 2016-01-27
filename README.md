@@ -21,6 +21,9 @@ Currently the conversions support : <br>
 
 - Open the file *NumConverter.pro* in Qt Creator and play around with the code !!
 
+#Platform :
+ *Windows*
+
 [Download Application]()
 
 <hr>
