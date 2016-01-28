@@ -11,6 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = NumConverter
 TEMPLATE = app
 
+CONFIG+=static
 
 SOURCES += main.cpp\
         dialog.cpp
@@ -18,3 +19,4 @@ SOURCES += main.cpp\
 HEADERS  += dialog.h
 
 FORMS    += dialog.ui
+

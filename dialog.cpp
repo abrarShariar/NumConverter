@@ -21,7 +21,7 @@ void Dialog::on_pushButton_clicked()
 {
         QString text=ui->lineEdit->text();
         bool ok;
-        long num=text.toLong(&ok,10);
+        long long num=text.toLongLong(&ok,10);
         QString hex = QString::number(num, 16).toUpper();       //convert to hexadecimal
         QString octal=QString::number(num,8);                   //convert to octal
         QString bin=QString::number(num,2);
@@ -37,7 +37,7 @@ void Dialog::on_pushButton_2_clicked()
 {
     QString text=ui->lineEdit_2->text();
     bool ok;
-    long num=text.toLong(&ok,16);
+    long long num=text.toLongLong(&ok,16);
     QString dec = QString::number(num,10);                 //convert to decimal
     QString octal=QString::number(num,8);                   //convert to octal
     QString bin=QString::number(num,2);
@@ -55,7 +55,7 @@ void Dialog::on_pushButton_3_clicked()
 {
     QString text=ui->lineEdit_3->text();
     bool ok;
-    long num=text.toLong(&ok,8);
+    long long num=text.toLongLong(&ok,8);
     QString dec = QString::number(num,10);                 //convert to decimal
     QString hex=QString::number(num,16).toUpper();                   //convert to octal
     QString bin=QString::number(num,2);
@@ -70,7 +70,7 @@ void Dialog::on_pushButton_4_clicked()
 {
     QString text=ui->lineEdit_4->text();
     bool ok;
-    long num=text.toLong(&ok,2);
+    long long num=text.toLongLong(&ok,2);
     QString dec = QString::number(num,10);                 //convert to decimal
     QString hex=QString::number(num,16).toUpper();                   //convert to octal
     QString octal=QString::number(num,8);
