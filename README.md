@@ -1,7 +1,7 @@
-# [NumConverter]()
+# [NumConverter](http://abrarshariar.github.io/NumberConverter-App/)
 A Qt (C++) application for number conversion [decimal,hexadecimal,octal,binary]
 
-[Download the application]()
+[Download the application](https://github.com/abrarShariar/NumberConverter-App/archive/master.zip)
 
 #What is this application :
 This is a a small & simple Qt destop application for quick number conversion <br>
@@ -23,8 +23,10 @@ Currently the conversions support : <br>
 
 #Platform :
  Supported OS: *Windows*
+ 
+ >Pull requests/Bug reports are welcome
 
-[Download Application]()
+[Download Application](https://github.com/abrarShariar/NumberConverter-App/archive/master.zip)
 
 <hr>
 Project maintained by [Abrar Shariar](https://www.facebook.com/abrar1661) <br>
