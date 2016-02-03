@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>500</width>
-    <height>399</height>
+    <height>467</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>20</y>
+     <y>60</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -33,7 +33,7 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>20</y>
+     <y>60</y>
      <width>251</width>
      <height>31</height>
     </rect>
@@ -72,14 +72,14 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>240</y>
-     <width>391</width>
-     <height>121</height>
+     <y>280</y>
+     <width>401</width>
+     <height>161</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>10</pointsize>
+     <pointsize>11</pointsize>
     </font>
    </property>
   </widget>
@@ -87,7 +87,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>70</y>
+     <y>100</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -103,7 +103,7 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>70</y>
+     <y>100</y>
      <width>251</width>
      <height>31</height>
     </rect>
@@ -116,7 +116,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>120</y>
+     <y>140</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -132,7 +132,7 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>120</y>
+     <y>140</y>
      <width>251</width>
      <height>31</height>
     </rect>
@@ -145,7 +145,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>170</y>
+     <y>180</y>
      <width>121</width>
      <height>31</height>
     </rect>
@@ -161,13 +161,69 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>170</y>
+     <y>180</y>
      <width>251</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>170</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>170</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Calculator</string>
    </property>
   </widget>
  </widget>

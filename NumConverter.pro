@@ -14,9 +14,12 @@ TEMPLATE = app
 CONFIG+=static
 
 SOURCES += main.cpp\
-        dialog.cpp
+        dialog.cpp \
+    calculator.cpp
 
-HEADERS  += dialog.h
+HEADERS  += dialog.h \
+    calculator.h
 
-FORMS    += dialog.ui
+FORMS    += dialog.ui \
+    calculator.ui
 

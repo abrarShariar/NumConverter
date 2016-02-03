@@ -1,5 +1,6 @@
 #include "dialog.h"
 #include "ui_dialog.h"
+#include "calculator.h"
 #include<QDebug>
 
 Dialog::Dialog(QWidget *parent) :
@@ -21,7 +22,7 @@ void Dialog::on_pushButton_clicked()
 {
         QString text=ui->lineEdit->text();
         bool ok;
-        long long num=text.toLongLong(&ok,10);
+        long long num=text.toLongLong(&ok,10); 
         QString hex = QString::number(num, 16).toUpper();       //convert to hexadecimal
         QString octal=QString::number(num,8);                   //convert to octal
         QString bin=QString::number(num,2);
@@ -30,6 +31,11 @@ void Dialog::on_pushButton_clicked()
         ui->textBrowser->append("\nHexadecimal[16] : "+hex);
         ui->textBrowser->append("\nOctal[8] : " +octal);
         ui->textBrowser->append("\nBinary[2] : " +bin);
+
+        //converting to ascii value
+
+
+
 }
 
 //for hexadecimal conversion
@@ -79,5 +85,11 @@ void Dialog::on_pushButton_4_clicked()
     ui->textBrowser->append("\nHexadecimal[16] : "+hex);
     ui->textBrowser->append("\nOctal[8] : " +octal);
     ui->textBrowser->append("\nBinary[2] : " +text);
+}
 
+
+void Dialog::on_pushButton_5_clicked()
+{
+    calculator* cal=new calculator(this);
+    cal->show();
 }
