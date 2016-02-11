@@ -1,6 +1,7 @@
 #include "dialog.h"
 #include "ui_dialog.h"
 #include "calculator.h"
+#include "asciitable.h"
 #include<QDebug>
 
 Dialog::Dialog(QWidget *parent) :
@@ -9,6 +10,7 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
     this->setWindowTitle("Number Converter");
+    this->setWindowFlags(this->windowFlags() | Qt::WindowMinimizeButtonHint);
 }
 
 Dialog::~Dialog()
@@ -33,9 +35,6 @@ void Dialog::on_pushButton_clicked()
         ui->textBrowser->append("\nBinary[2] : " +bin);
 
         //converting to ascii value
-
-
-
 }
 
 //for hexadecimal conversion
@@ -91,5 +90,14 @@ void Dialog::on_pushButton_4_clicked()
 void Dialog::on_pushButton_5_clicked()
 {
     calculator* cal=new calculator(this);
+    cal->setWindowFlags(cal->windowFlags() | Qt::WindowMinimizeButtonHint);
     cal->show();
 }
+
+/*
+void Dialog::on_pushButton_6_clicked()
+{
+    asciiTable* ascii=new asciiTable(this);
+    ascii->show();
+}
+*/

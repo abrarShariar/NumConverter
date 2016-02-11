@@ -15,11 +15,14 @@ CONFIG+=static
 
 SOURCES += main.cpp\
         dialog.cpp \
-    calculator.cpp
+    calculator.cpp \
+    asciitable.cpp
 
 HEADERS  += dialog.h \
-    calculator.h
+    calculator.h \
+    asciitable.h
 
 FORMS    += dialog.ui \
-    calculator.ui
+    calculator.ui \
+    asciitable.ui
 
