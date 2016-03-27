@@ -3,6 +3,12 @@ A Qt (C++) application for number conversion [decimal,hexadecimal,octal,binary]
 
 [Download the application](https://github.com/abrarShariar/NumberConverter-App/archive/master.zip)
 
+
+###Preview
+
+![app preview](https://raw.githubusercontent.com/abrarShariar/NumConverter/master/converter.jpg)
+
+
 #What is this application :
 This is a a small & simple Qt destop application for quick number conversion <br>
 Currently the conversions support : <br>
